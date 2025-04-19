@@ -1,0 +1,71 @@
+
+### ✅ **Functional Test Cases for WhatsApp:**
+
+#### 1. **User Registration & Login:**
+- Verify the user can register using a valid phone number.
+- Verify the OTP is received and verified successfully.
+- Verify the user is logged in after entering the correct OTP.
+- Verify login on a new device logs out from the previous device (if applicable).
+
+#### 2. **Messaging:**
+- Verify user can send a text message.
+- Verify user can receive a text message.
+- Verify message timestamp is displayed correctly.
+- Verify double tick (delivered) and blue tick (read) statuses work as expected.
+- Verify messages are sent to multiple recipients in a group chat.
+
+#### 3. **Media Sharing:**
+- Verify user can send and receive images.
+- Verify user can send and receive videos.
+- Verify user can send and receive documents (PDF, Word, etc.).
+- Verify user can send voice notes and listen to received ones.
+- Verify camera opens and allows taking a photo/video in chat.
+
+#### 4. **Calls:**
+- Verify user can initiate and receive a voice call.
+- Verify user can initiate and receive a video call.
+- Verify call quality and connectivity under different network conditions.
+
+#### 5. **Group Features:**
+- Verify the user can create a group.
+- Verify the user can add/remove participants.
+- Verify group description and name can be updated.
+- Verify group admins have proper controls.
+
+#### 6. **Status Updates:**
+- Verify the user can upload text/image/video status.
+- Verify the user can view others’ statuses.
+- Verify the status disappears after 24 hours.
+
+#### 7. **Privacy Settings:**
+- Verify settings for "Last seen," "Profile photo," "About," "Status," etc.
+- Verify "Blocked contacts" functionality.
+- Verify "Read receipts" toggle works correctly.
+
+#### 8. **Backup & Restore:**
+- Verify chat backup functionality to Google Drive/iCloud.
+- Verify chats can be restored after reinstalling WhatsApp.
+
+---
+
+### 🚀 **Non-Functional Test Cases:**
+
+#### 1. **Performance Testing:**
+- Verify the app launches within a few seconds.
+- Verify sending/receiving messages under poor network conditions.
+- Verify how the app performs with 10,000+ messages in a chat.
+
+#### 2. **Usability Testing:**
+- Verify UI is clean and user-friendly.
+- Verify accessibility options like font size, contrast mode, etc.
+
+#### 3. **Security Testing:**
+- Verify end-to-end encryption is maintained.
+- Verify OTP cannot be reused.
+- Verify data is secure during backup/restore.
+
+#### 4. **Compatibility Testing:**
+- Verify app works across various Android and iOS versions.
+- Verify proper layout on different screen sizes (phones, tablets).
+
+Thanks for Reading!!
